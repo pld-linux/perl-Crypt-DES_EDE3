@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	DES_EDE3
+%define		pdir	Crypt
+%define		pnam	DES_EDE3
 Summary:	Crypt::DES_EDE3 Perl module - Triple-DES EDE implementation
 Summary(pl):	Modu³ Perla Crypt::DES_EDE3 - implementacja Triple-DES EDE
 Name:		perl-Crypt-DES_EDE3
