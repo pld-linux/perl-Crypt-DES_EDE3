@@ -29,7 +29,7 @@ odszyfrowywania Triple-DES EDE (encrypt-decrypt-encrypt).
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
