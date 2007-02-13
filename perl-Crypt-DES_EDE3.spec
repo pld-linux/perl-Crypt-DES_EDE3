@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	DES_EDE3
 Summary:	Crypt::DES_EDE3 Perl module - Triple-DES EDE implementation
-Summary(pl.UTF-8):   Moduł Perla Crypt::DES_EDE3 - implementacja Triple-DES EDE
+Summary(pl.UTF-8):	Moduł Perla Crypt::DES_EDE3 - implementacja Triple-DES EDE
 Name:		perl-Crypt-DES_EDE3
 Version:	0.01
 Release:	3
