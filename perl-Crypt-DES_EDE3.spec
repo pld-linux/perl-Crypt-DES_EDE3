@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	DES_EDE3
+%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::DES_EDE3 Perl module - Triple-DES EDE implementation
 Summary(pl.UTF-8):	Moduł Perla Crypt::DES_EDE3 - implementacja Triple-DES EDE
 Name:		perl-Crypt-DES_EDE3
@@ -11,8 +11,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fde1995efa0735407a5f7c4a4c8147bc
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Crypt-DES_EDE3/
 BuildRequires:	perl-Crypt-DES
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
