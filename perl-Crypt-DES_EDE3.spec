@@ -4,7 +4,7 @@ Summary:	Crypt::DES_EDE3 Perl module - Triple-DES EDE implementation
 Summary(pl.UTF-8):	Moduł Perla Crypt::DES_EDE3 - implementacja Triple-DES EDE
 Name:		perl-Crypt-DES_EDE3
 Version:	0.01
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
